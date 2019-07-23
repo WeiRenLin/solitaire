@@ -1,0 +1,35 @@
+body {
+    background: grey;
+}
+.card__Top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 30%;
+    &__single {
+        width: 100px;
+        border: 1px solid #000;
+        height: 170px;
+        line-height: 170px;
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+.card__Top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 60%;
+    &__single {
+        width: 100px;
+        border: 1px solid #000;
+        height: 170px;
+        line-height: 170px;
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
