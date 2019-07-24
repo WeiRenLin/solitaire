@@ -25,7 +25,8 @@ body {
   margin: 0 auto;
 }
 
-.card__Top {
+.card__bottom {
+  margin-top: 70px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -36,14 +37,27 @@ body {
   height: 60%;
 }
 
-.card__Top__single {
+.card__bottom__single {
   width: 100px;
   border: 1px solid #000;
   height: 170px;
   line-height: 170px;
 }
 
-.card__Top__single img {
+.card__bottom__single img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card__bottom__single2 {
+  margin-top: -50px;
+  width: 100px;
+  border: 1px solid #000;
+  height: 170px;
+  line-height: 170px;
+}
+
+.card__bottom__single2 img {
   width: 50%;
   margin: 0 auto;
 }

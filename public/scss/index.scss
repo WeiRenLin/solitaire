@@ -17,12 +17,24 @@ body {
         }
     }
 }
-.card__Top {
+.card__bottom {
+    margin-top: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     height: 60%;
     &__single {
+        width: 100px;
+        border: 1px solid #000;
+        height: 170px;
+        line-height: 170px;
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    &__single2 {
+        margin-top: -50px;
         width: 100px;
         border: 1px solid #000;
         height: 170px;
